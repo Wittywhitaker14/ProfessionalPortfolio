@@ -19,9 +19,9 @@ header {
 }
 
 header h1 {
-    font-weight: bolder;
+    font-weight: normal;
     color: silver;
-    font-size: 36px;
+    font-size: 30px;
     margin: 0;
 }
 
@@ -31,12 +31,12 @@ header a {
 }
 
 header nav {
-    margin: 7px 0;
+    margin: 5px 0;
 }
 
 
 header nav ul {
-    flex-wrap: flex;
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,16 +44,49 @@ header nav ul {
 }
 
 header nav ul li a {
-    margin: 0 30px;
-    font-size: 1.55vw;
+    margin: 0 20px;
+    font-size: 1.25vw;
     font-weight: lighter;
+}
+
+footer {
+    background: rgb(36, 36, 36);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    display: center;
+    color: silver;
+}
+
+footer h3 {
+    font-size: 25px;
+    padding: 10px;
+}
+
+footer ul {
+    line-height: 1.5;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    margin: 7px 1px;
+    color: silver;
+}
+
+footer ul li {
+    list-style: none;
+    margin: 5px 0;
+    padding: 0 40px;
+}
+
+footer ul li a {
+    color: silver;
 }
 
 /* Section titles and Borders */
 
 .section-title {
-    font-size: 50px;
-    color: silver;
+    font-size: 20px;
+    color: black;
     border-right: 3px solid;
     padding-right: 20px;
     text-align: center;
@@ -62,13 +95,35 @@ header nav ul li a {
 }
 
 .primary-border {
-    border-color: rgb(4, 4, 110);
+    border-color: black;
 }
 
 /* Self Portrait */
+.headshot {
+    background-color: tan;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    overflow: auto;
+}
+.headshot img {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 25%;
+    padding: 0 40px;
+    float: right;
+}
 
 /* About Me */
 
+.aboutme {
+    display: flex;
+}
+
+.flex-row {
+    padding: 5px 30px;
+    text-align: center;
+    display: flex;
+}
 /* Work */
 
 /* Contact Me */
