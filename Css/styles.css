@@ -45,22 +45,28 @@ header nav ul {
 
 header nav ul li a {
     margin: 0 20px;
-    font-size: 1.25vw;
+    font-size: 1.75vw;
     font-weight: lighter;
+}
+
+header nav ul li a:hover {
+    background-color: black;
+    margin: 0 20px;
 }
 
 footer {
     background: rgb(36, 36, 36);
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-between;
     display: center;
     color: silver;
+    padding: 30px 0;
 }
 
 footer h3 {
-    font-size: 25px;
-    padding: 10px;
+    font-size: 35px;
+    padding: 15px 20px;
+    border-right: silver 3px solid;
 }
 
 footer ul {
@@ -75,22 +81,27 @@ footer ul {
 footer ul li {
     list-style: none;
     margin: 5px 0;
-    padding: 0 40px;
+    padding: 0 50px;
+    font-size: 20px;
 }
 
 footer ul li a {
     color: silver;
 }
 
+footer ul li:hover {
+    background-color: black;
+    padding: 0 50px;
+}
+
 /* Section titles and Borders */
 
 .section-title {
-    font-size: 20px;
     color: black;
     border-right: 3px solid;
-    padding-right: 20px;
-    text-align: center;
-    margin: auto 0 auto 35px;
+    padding: 0 20px 0 0;
+    text-align: left;
+    margin: 0 auto;
     width: auto;
 }
 
@@ -108,7 +119,7 @@ footer ul li a {
 .headshot img {
     box-sizing: border-box;
     margin: 0 auto;
-    width: 25%;
+    width: 43%;
     padding: 0 40px;
     float: right;
 }
@@ -117,13 +128,44 @@ footer ul li a {
 
 .aboutme {
     display: flex;
+    padding: 25px 10px;
 }
 
 .flex-row {
-    padding: 5px 30px;
-    text-align: center;
+    padding: 10px 30px;
+    text-align: left;
     display: flex;
+    font-size: 20px;
 }
+
 /* Work */
 
-/* Contact Me */
+.work {
+    display: flex;
+    padding: 25px 20px;
+}
+
+.milky-way img{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.milky-way a h3 {
+    position: relative;
+    width: 100%;
+    top: -100px;
+    color: silver;
+    font-size: 40px;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box ;
+    margin: 0 auto;
+    text-decoration: underline;
+}
+
+.milky-way img:hover {
+    opacity: 80%;
+}
