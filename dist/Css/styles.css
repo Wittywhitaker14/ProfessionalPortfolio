@@ -1,0 +1,320 @@
+/* Main Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(36, 36, 36);    
+}
+
+/* Header */
+
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(36, 36, 36);
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: normal;
+    color: silver;
+    font-size: 30px;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: silver;
+}
+
+header nav {
+    margin: 5px 0;
+}
+
+
+header nav ul {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin: 0 20px;
+    font-size: 1.75vw;
+    font-weight: lighter;
+}
+
+header nav ul li a:hover {
+    background-color: black;
+    margin: 0 20px;
+}
+
+/* Footer */
+
+footer {
+    background: rgb(36, 36, 36);
+    flex-wrap: wrap;
+    display: flex;
+    display: center;
+    color: silver;
+    padding: 30px 0;
+}
+
+footer h3 {
+    font-size: 35px;
+    padding: 15px 20px;
+    border-right: silver 3px solid;
+}
+
+footer ul {
+    line-height: 1.5;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    margin: 7px 1px;
+    color: silver;
+}
+
+footer ul li {
+    list-style: none;
+    margin: 5px 0;
+    padding: 0 50px;
+    font-size: 20px;
+}
+
+footer ul li a {
+    color: silver;
+}
+
+footer ul li:hover {
+    background-color: black;
+    padding: 0 50px;
+}
+
+/* Section titles and Borders */
+
+.section-title {
+    color: black;
+    border-right: 3px solid;
+    padding: 0 20px 0 0;
+    text-align: left;
+    margin: 0 auto;
+    width: auto;
+}
+
+.primary-border {
+    border-color: black;
+}
+
+/* Self Portrait */
+
+.headshot {
+    background-color: tan;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    overflow: auto;
+}
+.headshot img {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 43%;
+    padding: 0 40px;
+    float: right;
+}
+
+/* About Me */
+
+.aboutme {
+    display: flex;
+    padding: 25px 10px;
+}
+
+.flex-row {
+    padding: 10px 30px;
+    text-align: left;
+    display: flex;
+    font-size: 20px;
+}
+
+/* Work */
+
+.work {
+    display: flex;
+    padding: 25px 20px;
+}
+
+.container {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Milky Way */
+
+.milky-way img{
+    position: relative;
+    width: 96%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.milky-way a h3 {
+    position: relative;
+    width: 100%;
+    top: -100px;
+    color: silver;
+    font-size: 40px;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box ;
+    margin: 0 auto;
+    text-decoration: underline;
+}
+
+.milky-way img:hover {
+    opacity: 80%;
+}
+
+/* Shop */
+
+.shop {
+    width: 425px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.shop img{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.shop a h3 {
+    position: relative;
+    width: 100%;
+    top: -100px;
+    color: silver;
+    font-size: 40px;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box ;
+    margin: 0 auto;
+    text-decoration: underline;
+}
+
+.shop img:hover {
+    opacity: 80%;
+}
+
+/* Album */
+
+.album {
+    width: 425px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.album img{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.album a h3 {
+    position: relative;
+    width: 100%;
+    top: -100px;
+    color: silver;
+    font-size: 40px;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box ;
+    margin: 0 auto;
+    text-decoration: underline;
+}
+
+.album img:hover {
+    opacity: 80%;
+}
+
+/* Limited */
+
+.limited {
+    width: 425px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.limited img{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.limited a h3 {
+    position: relative;
+    width: 100%;
+    top: -100px;
+    color: silver;
+    font-size: 40px;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box ;
+    margin: 0 auto;
+    text-decoration: underline;
+}
+
+.limited img:hover {
+    opacity: 80%;
+}
+
+/* News */
+
+.news {
+    width: 425px;
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.news img{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.news a h3 {
+    position: relative;
+    width: 100%;
+    top: -100px;
+    color: silver;
+    font-size: 40px;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box ;
+    margin: 0 auto;
+    text-decoration: underline;
+}
+
+.news img:hover {
+    opacity: 80%;
+}
