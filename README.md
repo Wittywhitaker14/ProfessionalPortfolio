@@ -28,11 +28,13 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## MOCK UP
 
 
+
 ## URLs
 
 The URL of the deployed application.
 
-
+https://wittywhitaker14.github.io/ProfessionalPortfolio/
 
 The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
+https://github.com/Wittywhitaker14/ProfessionalPortfolio.git
